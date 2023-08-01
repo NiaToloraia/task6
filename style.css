@@ -1,0 +1,395 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    width: 1920px;
+    height: 2301px;
+}
+
+header {
+    display: flex;
+    width: 1220px;
+    height: 65px;
+    margin-top: 53px;
+    margin-left: 350px;
+    align-items: center;
+    gap: 195px;
+}
+
+
+.logotitle {
+    display: flex;
+    width: 200px;
+    height: 38px;
+    align-items: center;
+
+}
+
+.logotitle img {
+    width: 42.170623779296875px;
+    height: 29px;
+
+}
+
+.logotitle h1 {
+    width: 154px;
+    height: 38px;
+    color: #37393F;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.logotitle h1 span {
+    color: #6B77E5;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 825px;
+    align-items: center;
+    height: 65px;
+    gap: 40px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 601px;
+    height: 22px;
+}
+
+nav ul a {
+
+    color: #37393F;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.button {
+    width: 184px;
+    background-color: #6B77E5;
+    height: 65px;
+   text-align: center;
+   padding-top: 21px;
+}
+
+.button a {
+    font-style: normal;
+    width: 114px;
+    color: #FFFFFF;
+    font-family: Cabin;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    width: 114px;
+
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    width: 1, 220px;
+    height: 510px;
+    margin-top: 254px;
+    margin-left: 350px;
+    gap: 41px;
+
+}
+
+.sectitle {
+    margin-left: 468.5px;
+    display: flex;
+    width: 283px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.sectitle h1 {
+    color: #37393F;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.sectitle h2 {
+    color: #37393F;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48.4px;
+}
+
+.content {
+    display: flex;
+    width: 1220px;
+    justify-content: space-between;
+    height: 383px;
+
+}
+
+.secbox {
+    display: flex;
+    flex-direction: column;
+    width: 386px;
+    padding: 58px 43px;
+    align-items: center;
+    background-color: #F4F4F4;
+    justify-content: space-between;
+
+}
+
+.secbox .onebox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    gap: 37px;
+    text-align: center;
+}
+
+.secbox .onebox h3 {
+    color: #37393F;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 31.75px;
+}
+
+.secbox .onebox p {
+    color: #7D7D7D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26.31px;
+}
+
+.secbox .onebox a {
+    color: #6B77E5;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.content .round {
+    width: 72px;
+    height: 72px;
+    background-color: #40DDB6;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .roundmiddle {
+    background-color: #6B77E5;
+}
+
+.video {
+    background-image: url("assets/Rectangle\ 290.png");
+    width: 1920px;
+    height: 557px;
+    background-repeat: no-repeat;
+    margin-top: 60px;
+    position: relative;
+}
+
+.bigbox {
+    position: absolute;
+    top: 143px;
+    left: 705px;
+    width: 511px;
+    height: 271px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 47px;
+
+}
+
+.info {
+
+    display: flex;
+    width: 511px;
+    flex-direction: column;
+    align-items: center;
+    gap: 21px;
+    height: 159px;
+}
+
+.info h1 {
+    color: #37393F;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.info h2 {
+    color: #37393F;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48.4px;
+}
+
+.info p {
+    color: #37393F;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26.314px;
+}
+
+.videoclick {
+    width: 64.5px;
+    height: 64.5px;
+    background-color: #6B77E5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+article {
+    margin-top: 130px;
+    margin-left: 348px;
+    display: flex;
+    flex-direction: column;
+    width: 1220px;
+    align-items: center;
+    gap: 31px;
+    height: 659px;
+
+}
+
+.thame {
+    display: flex;
+    width: 348px;
+    flex-direction: column;
+    align-items: center;
+    height: 86px;
+    gap: 16px;
+
+}
+
+.thame h1 {
+    color: #37393F;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.thame h2 {
+    color: #37393F;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48.4px;
+}
+
+
+.final {
+    display: flex;
+    justify-content: center;
+    height: 532px;
+    gap: 31px;
+    width: 1120px;
+}
+
+.Exp1 {
+    background-image: url("assets/expert1.png");
+}
+
+.Exp2 {
+    background-image: url("assets/pnnn.png");
+}
+
+.Exp3 {
+    background-image: url("assets/lastt.png");
+}
+
+.Exp {
+    position: relative;
+    width: 386px;
+    height: 532px;
+}
+
+.expertname {
+    position: absolute;
+    top: 396px;
+    left: 22px;
+    background-color: #FFFFFF;
+    height: 114px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 69px;
+    gap: 4px;
+}
+
+.expertname h1 {
+    color: #37393F;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.expertname h2 {
+    color: #7D7D7D;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24.334px;
+}
