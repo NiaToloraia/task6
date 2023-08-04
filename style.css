@@ -228,13 +228,11 @@ section {
     height: 557px;
     background-repeat: no-repeat;
     margin-top: 60px;
-    position: relative;
 }
 
 .bigbox {
-    position: absolute;
-    top: 143px;
-    left: 705px;
+    padding-top: 143px;
+    margin-left: 705px;
     width: 511px;
     height: 271px;
     display: flex;
@@ -245,7 +243,6 @@ section {
 }
 
 .info {
-
     display: flex;
     width: 511px;
     flex-direction: column;
@@ -286,11 +283,6 @@ section {
 .videoclick {
     width: 64.5px;
     height: 64.5px;
-    background-color: #6B77E5;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
 }
 
 article {
